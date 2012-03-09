@@ -1,0 +1,11 @@
+bin\Release\WoW360Router.exe.config
+bin\Release\WoW360Router.exe
+bin\Release\WoW360Router.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DavidNikdel.WoW360Router.resources
+obj\Release\DavidNikdel.Properties.Resources.resources
+obj\Release\DavidNikdel.ImageDlg.resources
+obj\Release\DavidNikdel.PrefsDlg.resources
+obj\Release\WoW360Router.csproj.GenerateResource.Cache
+obj\Release\WoW360Router.exe
+obj\Release\WoW360Router.pdb
