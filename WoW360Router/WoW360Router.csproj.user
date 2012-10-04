@@ -16,6 +16,7 @@
     <StartWorkingDirectory>E:\vsroot\WoW-360\WoW360Router\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <StartWorkingDirectory>C:\WoW-360\WoW360Router\</StartWorkingDirectory>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
   </PropertyGroup>
 </Project>

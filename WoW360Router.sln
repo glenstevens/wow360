@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+# Visual C# Express 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoW360Router", "WoW360Router\WoW360Router.csproj", "{968239F9-36E4-49AE-9019-5F60B416540D}"
 EndProject
 Global

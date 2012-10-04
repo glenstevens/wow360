@@ -23,9 +23,6 @@
     <Setting Name="CenterOffsetX" Type="System.Single" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="CenterOffsetY" Type="System.Single" Scope="User">
-      <Value Profile="(Default)">0</Value>
-    </Setting>
     <Setting Name="SwapSticks" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
@@ -38,13 +35,10 @@
     <Setting Name="AssistMode" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="PetControl" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+    <Setting Name="CenterOffsetY" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">-0.14</Value>
     </Setting>
-    <Setting Name="UseAltModifier" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="UseMouseModeToggle" Type="System.Boolean" Scope="User">
+    <Setting Name="ESCMode" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>

@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>WoW360 Mod by David Nikdel</title>
+<style type="text/css">
+
+body
+{
+	font-family: Garamond;
+}
+
+p.header
+{
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+
+p.content
+{
+	padding-left: 20px;
+}
+
+</style>
+</head>
+<body bgcolor="white">
+
+<p style="font-size:28px;padding-top: 25px;">
+<b>Before you do anything, read this entire page (particularly the bolded spots)... You have been warned.</b>
+</p>
+
+<p>
+<span style="font-size: 32px; font-weight: bold;">WoW-360 v1.0</span><br>
+<span style="font-size: 14px;">by David Nikdel</span>
+</p>
+
+<p class="content">
+<i>"There are scientists that are curing cancer, and there are scientists that are making seedless watermelons."</i> - Dan<br>
+<br>
+Behold, my seedless watermelon...
+</p>
+
+
+<p class="header">Installation</p>
+<p class="content">
+WoW-360 consists of two components, the WoW360Router application and WoW360Interface, a World of Warcraft UI mod. For reference, you can download the mod package 
+<a href="http://www.davidnikdel.com/files/WoW360Mod_1_0.zip">here</a>, although you've probably done this already, seeing as you're reading this file.
+
+</p>
+<p class="content">
+<u>To install the WoW-360 UI mod package</u>, simply copy the contents of the AddOns/WoW360Interface folder contained in this zip into {your_WoW_folder}/Interface/AddOns/WoW360Interface. 
+You may need to create these folders as they do not exist by default. 
+</p>
+<p class="content">
+<u>To install WoW360Router</u>, just run the included setup.exe. You can uninstall it later via your Add/Remove Programs control panel. 
+<b><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5&displaylang=en">it does
+require the .NET Framework v2.0</a></b>, so if you don't have this installed already you will probably be prompted to download it... sorry.
+</p>
+<p class="content">
+Obviously, if there was an application included, it needs to be running for WoW-360 to work. Just remember to start it up before starting 
+World of Warcraft (it will be installed in your Start menu). When you start up WoW360Router, you may want to check 
+out File->Preferences to see if the settings there match what you'll be expecting from the controller (look inversion, etc). Also, About->Keymappings is there 
+for your reference, but the instructions in the next section do a better job of explaining the actual game function of these keys (with the
+mod installed/enabled).
+</p>
+<p class="content">
+Finally, WoW updates its client (which they assuredly will), this mod may become listed as out of date even though it may still work. If the UI mod isn't loading, 
+be sure to check your AddOns list before loggins in (located in the lower left corner of the character selection screen) to see if it's been disabled.
+</p>
+
+<p class="header">Getting Started</p>
+<p class="content">
+First off, I'd like to mention that this mod (and the corresponding utility) is verified to work with WoW patch 1.9 and no other (although 
+I anticipate that it will continue to work for a good while afterwords). Accordingly, I make no guarantee as to the fitness of this product 
+for any use whatsoever, including the one I just described (how's that for legal weirdness?). If it happens to work, well that's just great. 
+I assure you it was unintentional.
+</p>
+<p class="content">
+Now then, most of this is self explainitory, but for the sake of completeness, I'll explain it anyway. In order to use this program you must first
+install <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5&displaylang=en">the .NET Framework v2.0</a>. Next, it would be helpful if you actually owned a <b>wired</b> XBox 360 controller which must be plugged into your computer and 
+have all its drivers installed. Also, be sure to follow the installation instructions specified in the previous section.
+</p>
+<p class="content">
+To play WoW with the controller, first run WoW360Router.exe. If this is your first time, check out File-&gt;Preferences for some useful tweaks. 
+Next, start World of Warcraft. Within a few seconds, the WoW360Router should acquire a link to the World of Warcraft window on its own.
+If you alt-tab out and look at the UI, it should say Window Acquired (the Warcraft logo will be shown in the corner to reiterate this fact). It will also show a controller with a red slash over it indicating that 
+controller input is currently paused (more on this later). Ok, go back into WoW and log in to your favorite character. <b>If the UI Mod was installed correctly, you should now 
+see a small xbox controller icon in the lower right-hand corner.</b> Left-clicking this icon will bring up the Combo Editor. Note that technical 
+limitations prevent using the controller from being used to enter these combos, so don't bother trying. Using the keyboard, 
+you can begin building your combo library. Valid combos are up to 5 key/modifier pairs. The available pairs are A-, B-, X-, Y-, A+, B+, X+, and Y+ 
+corresponding to A, B, X, Y, Shift-A, Shift-B, Shift-X, and Shift-Y respectively. So, A, B, Shift-Y would be "A-B-Y+". Get it? Note that here, we're talking 
+about the <i>controller's</i> shift button (discussed later) not the one on the keyboard. Also, when actually executing the combos during play, it's important 
+to note that they need to be submitted by pulling the right trigger (see discussion later as to why this is the case). 
+There should be a few examples there which will help you get started. You can associate a combo with the name of any 
+spell simply by typing the spell name in the box labeled "Spell". In addition, the following slash commands are also supported: 
+</p>
+<ul>
+<li><b>/useitem &lt;name&gt;</b> Use an item in your bag called &lt;name&gt;</li>
+<li><b>/cancelmode</b> Just cancels all effects that last until canceled (mounts, druidforms, stealth, longsight, etc).</li>
+<li><b>/petaction &lt;number&gt;</b> Activates your pet's action bar using the numbered skill (starting at 1, counting from left to right)</li>
+<li><b>/script &lt;your_script&gt;</b> Executes the script &lt;your_script&gt;. You can set the global variable ACTION_NAME within here to modify the name displayed on cast.</li>
+</ul>
+<p class="content">
+Hint: don't try to make them all up front, just play for a bit and whenever you're like "shit, I need to do this fast", go make a combo.
+Once you are happy with your combos, close the Combo Editor window. To toggle into controller mode, press the Start button on the XBox360 controller. 
+You should now see your cursor disappear and your main action bar will be filled with WoW360 macros. No, this did not just destroy the contents
+of your action bar (entirely). Yes, <b>this mod will distroy the contents of your #2 action bar</b>, so plan accordingly (most people don't use 
+this bar). Unfortunately, there is no way around this at this time. In addition, you must have 12 free character macro spots to switch 
+into this mode (don't worry, it will tell you if you don't). Your keyboard will still work in this mode, actually as will the mouse, but 
+using it is not recommended. Instead, you should press Start to exit controller mode, do what you need with the keyboard/mouse, and then 
+press Start to go back in. Unfortunately since this is a bit of an ad hoc solution, it can be a bit finnicky; <b>if you mess something up, pressing Start twice will usually fix it.</b>
+</p>
+<p class="content">
+Once in controller mode, you'll notice that the buttons you press will show up in the center of the screen. At this point, it would be useful
+to describe the function of each button on the controler.
+</p>
+<ul>
+<li><b>The Directional Pad (D-Pad):</b> This moves your character. (It is analogous to using the move forward/backwards, and strafe left/right keys.)</li>
+<li><b>Left Shoulder Button:</b> Puts the buttonpad into "shift" mode.* (For example, Shift-A is treated as a different key than A. You'll see a slightly different graphic come up to reflect this).</li>
+<li><b>Left Trigger:</b> Targets the nearest (sort of) game object.* (This is essentially like pressing Tab in game, only it has some slightly improved logic and will also cycle through friendly targets. Unfortunately, most of the smarts for this reside within WoW, and they're not very good.)</li>
+<li><b>Right Shoulder Button:</b> Holding down this button will activate "mousemode", enabling the left analog stick and allowing you to move the mouse with it. (Useful at times, but ultimately, I still reccomend using Start to pause, use the keyboard/mouse, and come back).</li>
+<li><b>Right Trigger:</b> Submits the currently displayed combo <i>or, if there is none, repeats the last action</i>. (<b>This button must end every combo.</b> I would have liked to submit after a timeout, but because of anti-botting measures added by Blizzard (which I agree with) the spellcast MUST be associated with some simultanious buttonpress.)</li>
+<li><b>Left Analog Stick:</b> Controls the mouse iff the Right Shoulder Button is held down, otherwise dormant. (Can be set to emulate the D-Pad via File-&gt;Preferences. This may be disconcerting to some players, however, as it's still only possible to move in the cardinal directions unfortunately.)</li>
+<li><b>Right Analog Stick:</b> Turns your character.</li>
+<li><b>Click Left Thumbstick:</b> In "mousemode", clicks the left mouse button. Otherwise, disabled.</li>
+<li><b>Click Right Thumbstick:</b> In "mousemode", clicks the right mouse buttons. Otherwise, causes your character to jump.</li>
+<li><b>Start:</b> Toggles WoW360 mode.</li>
+<li><b>Back:</b> Closes dialog windows or brings up the system menu. (Equivalent to pressing Esc.)</li>
+<li><b>A, X, Y, B, Shift-X, Shift-Y, Shift-B:</b> Pressing any of these buttons inserts their respective signitures into the combo queue. (Remember, use Right Trigger to submit.)</li>
+</ul>
+<p class="content">
+* These two functions can be swapped via an option in File-&gt;Preferences (swapping tends to be preferrable for playing melee characters).
+</p>
+<p class="content">
+To execute a combo in WoW360 mode, simply use the A,B,X,Y, and Shift buttons as specified above then <b>pull the Right Trigger to submit</b>. Also, 
+<b>to repeat that action, just pull the Right Trigger without entering a combo</b>. That's all there is to it. I will warn you, this is an 
+alltogether foreign method of play at first and it takes getting used to like everything else. If you're the type of person who's set in 
+his/her ways, you may get very frustrated. Try to keep a friend handy who doesn't mind listening to you curse so there's someone to laugh as 
+you blame every mistake you make on the controller :-).
+</p>
+
+
+<p class="header">How It Works</p>
+<p class="content">
+The WoW360 Router executable follows a fairly simple concept. Because World of Warcraft does not have native support for game controllers, 
+support must be faked using the available keyboard and mouse inputs. That is just what we do. There's a bit more logic involved, but
+essentially, this program just translates the movements and button strokes coming in from the controller into mouse movements and keystrokes.
+The UI Mod is basically just glue to make all this seem more transparent and less awkward. As you may have guessed/seen, however, some amount 
+of tomfollery cannot be avoided, resulting in a less-than-optimal solution, but one which I still think is fun, if not alltogether practical.
+The intention of this program is not to replace the Blizzard UI, nor is it really to provide a complete alternate playstyle. It was created one weekend 
+as a little gee-wiz program and nothing more. The only reason I bothered to polish it as much as I have is because a few other people have 
+expressed interest in using it and I'm anal-retentive like that. Hopefully, if this catches on, it will give Blizzard an incentive to provide 
+some form of native support which --one would hope-- would be less hackish... but I wouldn't hold my breath. Anyway, use it, enjoy it, hate it, 
+whatever. Feel free to email or flame me, I'd love to hear from users, but don't expect any sort of regular updates. I already have another 
+pet project I'm itching to move on to :-).
+</p>
+<p class="content">
+- David Nikdel<br>
+dave@davidnikdel.com<br>
+<a href="http://www.davidnikdel.com/">www.davidnikdel.com</a>
+</p>
+
+
+<p class="header">Troubleshooting</p>
+<p class="content">
+<b>Problem:</b> The mod didn't install.<br>
+<b>Solution 1:</b> Make sure you don't have two WoW360Interface folders (one inside the other).<br>
+<b>Solution 2:</b> On the character selection screen click the AddOns button in the lower left and make sure WoW360Interface is checked (you may have to enable the "Load Out of Date Addons" checkbox at the top).
+</p>
+<p class="content">
+<b>Problem:</b> The executable won't run<br>
+<b>Solution 1:</b> Did you install the <a href="http://www.davidnikdel.com/files/WoW360Mod_1_0.zip">.NET framework v2.0</a>?<br>
+<b>Solution 2:</b> Did you copy it somewhere and forget to bring along Microsoft.DirectX.dll?<br>
+<b>Solution 3:</b> Do you have an XBox 360 controller installed? You may need to upgrade to DirectX9 to get the drivers if you don't have the device itself.<br>
+</p>
+<p class="content">
+<b>Problem:</b> Something else doesn't work.<br>
+<b>Solution:</b> Ask someone smarter than you or fix it your damn self. :-P
+</p>
+
+
+<p class="header">Is This Program Ok to Use?</p>
+<p class="content">
+<i>"Recently, players expressed some concern over the use of programmable 
+gaming peripherals while playing World of Warcraft. We want to make sure 
+it's clear that creating hotkeys for certain actions in the game is ok. 
+However, if these peripherals are used to automate gameplay to the point 
+where the player is able to conduct repeated actions in the game without 
+paying attention, then that will constitute a violation of our game policies. 
+The use of sustained automated play grants an unfair advantage over players 
+who earn their achievements by actively playing through the game as it was 
+designed. In the interest of maintaining an even playing field for all 
+players, we will investigate reports of automated play and take action as 
+needed to prevent this from occurring in the game."</i> - <b>Aeus</b> (World of Warcraft Community Manager)
+</p>
+<p class="content">
+I think it is clear from this post that the guiding principle behind what is acceptable in the realm 
+of external peripheral communication rests solely on whether or not said peripheral modifies the player's
+experience of the game so as to grant an unfair advantage or trivialize certain challenges. While it does 
+provide a different gameplay experience, I believe WoW360 rests squarely within the boundries 
+specified by the spirit of this rule. The game is just as challenging (if not more so) when utilizing a controller.
+</p>
+<p class="content">
+Moreover, <b>this program does NOT perform any of the following actions</b>:
+<ul>
+<li>It does not generate any keyboard or mouse input which was not initiated by the user. I.e. all keypresses correspond to button action, and all mouse movement corresponds to stick movement.</li>
+<li>It does not intercept or in any way modify communication beteween the game client and the game server. This is specifically prohibited in the EULA and WoW360 Router does nothing of the sort.</li>
+<li>It does not generate any messages which could not have been otherwise sent using the standard peripherals (keyboard and mouse).</li>
+</ul>
+</p>
+
+
+<p class="header">Credits</p>
+<p class="content">This program is free software, although it is currently not open source. Feel free to 
+share it, reverse engineer it, run it, delete it, modify it, or fix it, however it remains wholly
+copyrighted by the authors (except where otherwise stated). We do require that, if you modify this program, 
+this copyright notice be left intact. This program is distributed "as is" without any warranty of any
+kind, implied or expressed, including but not limited to the implied warranties of mercantability and fitness for a particular use.
+</p>
+<p class="content">
+<b><u>Lead Developer</u></b><br>
+David Nikdel<br>
+<br>
+<b><u>Gameplay Assistance</u></b><br>
+Joshua Sachs<br>
+Dan Ewton<br>
+</p>
+<p class="content">Neither Blizzard nor Microsoft in any way supports,
+endorses, or holds responsibility for this product. However, the author
+would like to thank them for making this all possible. For comments,
+questions, or suggestions, email dave@davidnikdel.com.
+</p>
+
+
+</body>
+</html>
