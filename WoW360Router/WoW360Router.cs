@@ -728,9 +728,14 @@ namespace DavidNikdel
             }
 
             // Back = Esc
-            if ((mask & GamePad.BTN_BACK) != 0)
-                if (m_settings.ESCMode && (!m_LTriggerDown || !m_RTriggerDown)) FakeKey(Keys.Escape, t);
-
+            if ((mask & GamePad.BTN_BACK) != 0) {
+                if (!m_LTriggerDown || !m_RTriggerDown) {
+                    if (m_settings.ESCMode)
+                        FakeKey(Keys.Escape, t);
+                    else
+                        FakeKey(Keys.Oemtilde, t);
+                }
+            }
             if ((mask & GamePad.BTN_START) != 0)
             {
                 if (m_LTriggerDown && m_RTriggerDown && t == KeyPressType.Up)

@@ -2,3 +2,5 @@ Thumbs.db
 bin/
 obj/
 .svn/
+*.pfx
+*.suo
